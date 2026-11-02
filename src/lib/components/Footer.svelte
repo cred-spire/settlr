@@ -26,11 +26,17 @@
 		</div>
 		<div class="bottom">
 			<p>© 2026 Settlr. All rights reserved. · Built in India</p>
+			<!-- Placeholder links: replace "#" with real URLs when the pages/profiles exist -->
 			<div class="legal">
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#">Privacy</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#">Terms</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#">SLA</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#">LinkedIn</a>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#">X</a>
 			</div>
 		</div>

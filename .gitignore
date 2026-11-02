@@ -7,3 +7,12 @@ node_modules
 # Generated files
 .psci
 output
+
+# SvelteKit / Netlify
+.svelte-kit
+build
+.netlify
+.DS_Store
+.env
+.env.*
+!.env.example

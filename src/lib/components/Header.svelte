@@ -23,6 +23,7 @@
 			</nav>
 		</div>
 		<div class="right">
+			<!-- svelte-ignore a11y_invalid_attribute (placeholder until sign-in exists) -->
 			<a class="signin" href="#">Sign in</a>
 			<a class="btn btn-navy demo" href="/early-access">Book a demo</a>
 			<button
@@ -48,6 +49,7 @@
 			{#each nav as item}
 				<a href={item.href} aria-current={current.startsWith(item.href) ? 'page' : undefined}>{item.label}</a>
 			{/each}
+			<!-- svelte-ignore a11y_invalid_attribute -->
 			<a href="#">Sign in</a>
 		</nav>
 	{/if}

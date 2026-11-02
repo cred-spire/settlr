@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  # Output directory written by @sveltejs/adapter-netlify
+  publish = "build"
+
+[build.environment]
+  # Vite 8 requires Node ^20.19 or >=22.12
+  NODE_VERSION = "22"
+
+# Long-term caching for SvelteKit's content-hashed assets
+[[headers]]
+  for = "/_app/immutable/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
