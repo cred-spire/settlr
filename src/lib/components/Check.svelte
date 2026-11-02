@@ -1,0 +1,14 @@
+<script lang="ts">
+	let { color = 'var(--navy)', width = 1.8 }: { color?: string; width?: number } = $props();
+</script>
+
+<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+	<path d="M3 8.5l3 3 7-7" fill="none" stroke={color} stroke-width={width} stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+
+<style>
+	svg {
+		flex-shrink: 0;
+		display: inline-block;
+	}
+</style>
